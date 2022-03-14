@@ -47,15 +47,15 @@ function App() {
         <div className='bottom'>
           <div className='feels'>
             {data.main ? <p>{parseFloat(data.main.feels_like -273.15).toFixed(2)}°C</p> : null}
-            <p>feels like</p>
+            <p className='tit'>Feels Like</p>
           </div>
           <div className='humidity'>
             {data.main ? <p>{data.main.humidity}%</p> : null}
-            <p>humidity</p>
+            <p className='tit'>Humidity</p>
           </div>
           <div className='wind'>
             {data.wind ? <p>{parseFloat(data.wind.speed * 1.6).toFixed(2)}kph</p> : null}
-            <p>wind speed</p>
+            <p className='tit'>Wind Speed</p>
           </div>
         </div>
 
