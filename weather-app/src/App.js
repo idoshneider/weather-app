@@ -22,7 +22,6 @@ function App() {
       <h3 className='search'>
         Get Weather By Location
       </h3>
-      <h2 id="eror"></h2>
       <div>
         <input 
         value={location}
