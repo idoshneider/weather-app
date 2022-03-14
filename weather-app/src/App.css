@@ -72,9 +72,9 @@
 
 }
 ::placeholder{
-  color: #FFA500;
+  color: darkblue;
 }
-.search span{
+.searchbar span{
   position: absolute;
     top: 0;
     left: 0;
@@ -82,20 +82,20 @@
     -webkit-clip-path: polygon(10% 0%, 44% 0%, 70% 100%, 55% 100%);
             clip-path: polygon(10% 0%, 44% 0%, 70% 100%, 55% 100%);
 }
-.search::before,
-.search::after{
+.searchbar::before,
+.searchbar::after{
   content: attr(data-text);
     position: absolute;
     top: 0;
     left: 0;
 }
-.search::before{
+.searchbar::before{
   animation: crack1 2.5s linear forwards;
     -webkit-clip-path: polygon(0% 0%, 10% 0%, 55% 100%, 0% 100%);
             clip-path: polygon(0% 0%, 10% 0%, 55% 100%, 0% 100%);
 }
 
-.search::after{
+.searchbar::after{
   animation: crack2 2.5s linear forwards;
     -webkit-clip-path: polygon(44% 0%, 100% 0%, 100% 100%, 70% 100%);
             clip-path: polygon(44% 0%, 100% 0%, 100% 100%, 70% 100%);
