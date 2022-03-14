@@ -11,7 +11,7 @@ function App() {
       axios.get(url).then((response) =>{
       setData(response.data)
       console.log(response.data)
-      
+      setLocation('');
     })
     }
     
@@ -24,8 +24,8 @@ function App() {
       </h3>
       <div>
         <input 
-        value={location}
-        onChange = {event => setLocation(event.target.value)}
+        value = {location}
+        onChange = {(event) => setLocation(event.target.value)}
         onKeyPress = {searchLocation}
         className='searchbar'
         type='text'
