@@ -1,9 +1,7 @@
 import {useState} from 'react' ; 
 import './App.css';
 import axios from 'axios';
-//check
 import Clock from 'react-live-clock';
-//abc
 function App() {
   const [data,setData] = useState({});
   const [location,setLocation] = useState('');
