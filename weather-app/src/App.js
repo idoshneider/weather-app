@@ -1,7 +1,7 @@
 import {useState} from 'react' ; 
 import './App.css';
 import axios from 'axios';
-//updated
+//check
 import Clock from 'react-live-clock';
 function App() {
   const [data,setData] = useState({});
