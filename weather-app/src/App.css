@@ -1,4 +1,5 @@
 .App {
+  
   text-align: center;
   background-image: url(./images/bgc.jpg);
   position: fixed;
@@ -170,4 +171,90 @@
 }
 .tit{
   color: #FFA500;
+}
+.state {
+  position: absolute;
+  top: 5%;
+  left: 7%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #FFA500;
+  font-size: 60px;
+  font-family: Orbitron;
+  letter-spacing: 7px;
+  color: #fff;
+  letter-spacing: -7px;
+  font-weight: 700;
+  text-transform: uppercase;
+  animation: blur .75s ease-out infinite;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+}
+
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 10px #FFA500
+,
+      0px 0px 10px #FFA500, 
+      0px 0px 25px #FFA500,
+      0px 0px 25px #FFA500,
+      0px 0px 25px #FFA500,
+      0px 0px 25px #FFA500,
+      0px 0px 25px #FFA500,
+      0px 0px 25px #FFA500,
+      0px 0px 50px #FFA500,
+      0px 0px 50px #FFA500,
+      0px 0px 50px #FFA500,
+      0px 0px 150px #FFA500,
+      0px 10px 100px #FFA500,
+      0px 10px 100px #FFA500,
+      0px 10px 100px #FFA500,
+      0px 10px 100px #FFA500,
+      0px -10px 100px #FFA500,
+      0px -10px 100px #FFA500;
+  }
+
+ 
+
+
+}
+.time {
+  position: absolute;
+  top: 5%;
+  right: -2%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #FFA500;
+  font-size: 60px;
+  font-family: Orbitron;
+  letter-spacing: 7px;
+  color: #fff;
+  letter-spacing: -7px;
+  font-weight: 700;
+  text-transform: uppercase;
+  animation: blur .75s ease-out infinite;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 7px #fff;
+}
+
+@keyframes blur {
+  from {
+    text-shadow:0px 0px 10px #FFA500
+,
+      0px 0px 10px #FFA500, 
+      0px 0px 25px #FFA500,
+      0px 0px 25px #FFA500,
+      0px 0px 25px #FFA500,
+      0px 0px 25px #FFA500,
+      0px 0px 25px #FFA500,
+      0px 0px 25px #FFA500,
+      0px 0px 50px #FFA500,
+      0px 0px 50px #FFA500,
+      0px 0px 50px #FFA500,
+      0px 0px 150px #FFA500,
+      0px 10px 100px #FFA500,
+      0px 10px 100px #FFA500,
+      0px 10px 100px #FFA500,
+      0px 10px 100px #FFA500,
+      0px -10px 100px #FFA500,
+      0px -10px 100px #FFA500;
+  }
+
+
 }
